@@ -10,7 +10,11 @@ body {
     max-width: 50em;
     line-height: 1.5;
     padding: 2em;
-    color: #566b78;
+    color: #555;
+}
+
+h1, h2, strong {
+    color: #333;
 }
 
 h2 {
@@ -27,10 +31,6 @@ a:hover {
     text-decoration: underline;
 }
 
-h1, h2, strong {
-    color: #333;
-}
-
 code {
     padding: 2px 4px;
     vertical-align: text-bottom;
@@ -43,6 +43,6 @@ pre {
 
 code, pre {
     background-color: #f5f7f9;
+    color: #555;
     border-bottom: 1px solid #d8dee9;
-    color: #a7adba;
 }
