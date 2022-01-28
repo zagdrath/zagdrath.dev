@@ -9,9 +9,9 @@ export default function Header() {
     <div>
       <nav>
         <ul className={navLinks}>
-          <li className={navLinkItem}><Link to="/">Home</Link></li>
-          <li className={navLinkItem}><Link to="/blog">Blog</Link></li>
-          <li className={navLinkItem}><Link to="/about">About</Link></li>
+          <li className={navLinkItem}><Link to="/"><h3>Home</h3></Link></li>
+          <li className={navLinkItem}><Link to="/blog"><h3>Blog</h3></Link></li>
+          <li className={navLinkItem}><Link to="/about"><h3>About</h3></Link></li>
         </ul>
       </nav>
     </div>

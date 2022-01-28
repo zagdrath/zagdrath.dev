@@ -4,7 +4,6 @@ import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import Header from "../components/header"
 import Footer from "../components/footer"
-import { StaticImage } from 'gatsby-plugin-image'
 import { blogList, } from '../styles/blog.module.scss'
 
 // Define component
