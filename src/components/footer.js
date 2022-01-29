@@ -6,7 +6,9 @@ export default function Footer() {
   return (
     <div>
       <hr></hr>
-      <p>Copyright (C) 2022, Zagdrath. All Rights Reserved.</p>
+      <center>
+        <p>Copyright © 2022, Zagdrath. All Rights Reserved.</p>
+      </center>
     </div>
   )
 }

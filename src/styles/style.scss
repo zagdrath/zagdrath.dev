@@ -1,20 +1,22 @@
 // Imports
+@use './colors' as *;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 
 // Variables
-$font-stack: 'Arial', sans-serif;
+$font-stack: 'Nunito', sans-serif;
 
 // General
 body {
     font:100% $font-stack;
     margin: 0 auto;
-    max-width: 50em;
+    max-width: 80em;
     line-height: 1.5;
     padding: 1.5em;
-    color: #555;
+    color: $gray-700;
 }
 
 h1, h2, strong {
-    color: #333;
+    color: $gray-800;
 }
 
 h2 {
@@ -23,7 +25,7 @@ h2 {
 }
 
 a {
-    color: #e81c4f;
+    color: $red;
     text-decoration: none;
 }
 
@@ -38,11 +40,11 @@ code {
 
 pre {
     padding: 1em;
-    border-left: 2px solid #e81c4f;
+    border-left: 2px solid $red;
 }
 
 code, pre {
     background-color: #f5f7f9;
-    color: #555;
+    color: $gray-700;
     border-bottom: 1px solid #d8dee9;
 }

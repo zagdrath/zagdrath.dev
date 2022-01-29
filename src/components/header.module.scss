@@ -1,18 +1,45 @@
 // Imports
+@use '../styles/colors' as *;
 
 // Variables
 
 // General
-.nav-links {
+a:hover {
+    text-decoration: none;
+}
+
+.nav {
     display: flex;
+    align-items: center;
+    margin-top: 0rem;
+    margin-bottom: 8rem;
+    height: 3rem;
+}
+
+.nav-home {
+    display: flex;
+    color: $gray-800;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-items {
+    display: flex;
+    margin-left: auto;
     list-style: none;
-    padding-left: 0;
 }
 
-.nav-link-item {
-    padding-right: 2rem;
+.nav-item {
+    font-weight: bold;
+    margin-left: 3rem;
 }
 
-.nav-link-item a {
-    text-decoration: underline;
+.nav-item-link {
+    text-decoration: none;
+    color: $gray-800;
+    outline-offset: 1rem;
+}
+
+.nav-item a:hover {
+    color: $red;
 }

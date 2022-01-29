@@ -3,18 +3,28 @@ import * as React from 'react'
 import { Helmet } from 'react-helmet'
 import Header from "../components/header"
 import Footer from "../components/footer"
+import { StaticImage } from 'gatsby-plugin-image'
+import { container, main, avatar, mainHey, mainAboutTitle, mainAbout, } from './index.module.scss'
 
 // Define component
 const IndexPage = () => {
   return (
     <body>
       <Helmet>
-        <title>Home</title>
+        <title>Zagdrath</title>
         <meta charset="UTF-8"></meta>
       </Helmet>
       <Header></Header>
-      <h1>Home</h1>
-      <p>Welcome to my blog that I created for fun.</p>
+      <div className={container}>
+        <div className={main}>
+          <h1 className={mainHey}>Hey! I'm Zagdrath 👋</h1>
+          <h2 className={mainAboutTitle}>I'm a software developer, information technology specialist & </h2>
+          <p className={mainAbout}>Welcome! It's great to have you here. This is a blog I created to write some technology tutorials and other stuff.</p>
+        </div>
+        <div className={avatar}>
+          <StaticImage alt="Avatar" src="../images/avatar.png"/>
+        </div>
+      </div>
       <Footer></Footer>
     </body>
   )

@@ -1,0 +1,40 @@
+// Imports
+
+// Variables
+
+// General
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: "main avatar"; 
+}
+
+.main { grid-area: main; }
+.avatar {
+    grid-area: avatar;
+}
+
+h1, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.main-hey {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.main-about-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+}
+
+.main-about {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}

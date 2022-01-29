@@ -1,17 +1,21 @@
 // Imports
 import * as React from 'react'
 import { Link } from 'gatsby'
-import { navLinks, navLinkItem, } from './header.module.scss'
+import { nav, navHome, navItems, navItem, navItemLink, } from './header.module.scss'
 
 // Export component
 export default function Header() {
   return (
     <div>
-      <nav>
-        <ul className={navLinks}>
-          <li className={navLinkItem}><Link to="/"><h3>Home</h3></Link></li>
-          <li className={navLinkItem}><Link to="/blog"><h3>Blog</h3></Link></li>
-          <li className={navLinkItem}><Link to="/about"><h3>About</h3></Link></li>
+      <nav className={nav}>
+        <Link to="/" className={navHome}>Zagdrath</Link>
+        <ul className={navItems}>
+          <li className={navItem}>
+            <Link to="/blog" className={navItemLink}>Blog</Link>
+          </li>
+          <li className={navItem}>
+            <Link to="/about" className={navItemLink}>About</Link>
+          </li>
         </ul>
       </nav>
     </div>
