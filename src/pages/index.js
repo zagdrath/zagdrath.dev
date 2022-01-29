@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet'
 import Header from "../components/header"
 import Footer from "../components/footer"
 import { StaticImage } from 'gatsby-plugin-image'
-import { container, main, avatar, mainHey, mainAboutTitle, mainAbout, mainButtons, button, } from './index.module.scss'
+import { container, main, avatar, mainHey, mainAboutTitle, mainAbout, mainButtons, button, recentBlogPosts, sectionHeader, } from './index.module.scss'
 
 // Define component
 const IndexPage = () => {

@@ -27,6 +27,7 @@ h2 {
 
 a {
     color: $purple;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -41,10 +42,11 @@ code {
 
 pre {
     padding: 1em;
-    border-left: 2px solid $purple;
+    border-left: 4px solid $purple;
 }
 
 code, pre {
+    font:100% $font-stack;
     background-color: #f5f7f9;
     color: $gray-700;
     border-bottom: 1px solid #d8dee9;
