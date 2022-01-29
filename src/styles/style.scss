@@ -1,5 +1,5 @@
 // Imports
-@use './colors' as *;
+@use './theme' as *;
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 
 // Variables
@@ -8,6 +8,7 @@ $font-stack: 'Nunito', sans-serif;
 // General
 body {
     font:100% $font-stack;
+    font-size: $text-base;
     margin: 0 auto;
     max-width: 80em;
     line-height: 1.5;
@@ -25,7 +26,7 @@ h2 {
 }
 
 a {
-    color: $red;
+    color: $purple;
     text-decoration: none;
 }
 
@@ -40,7 +41,7 @@ code {
 
 pre {
     padding: 1em;
-    border-left: 2px solid $red;
+    border-left: 2px solid $purple;
 }
 
 code, pre {
